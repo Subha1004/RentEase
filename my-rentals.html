@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Rentals</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<h2 class="mb-4">My Rentals</h2>
+
+<div class="card p-4">
+
+<h4 id="product"></h4>
+
+<p id="months"></p>
+
+<p id="total"></p>
+
+</div>
+
+</div>
+
+<script>
+
+let rental = JSON.parse(localStorage.getItem("rental"));
+
+if(rental){
+
+document.getElementById("product").innerHTML = rental.product;
+
+document.getElementById("months").innerHTML = "Duration : " + rental.months + " Month(s)";
+
+document.getElementById("total").innerHTML = "Total Rent : ₹" + rental.total;
+
+}
+
+</script>
+
+</body>
+</html>

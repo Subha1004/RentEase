@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../images/hero-banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.btn{
+    border-radius:30px;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card img{
+    height:220px;
+    object-fit:cover;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.navbar-brand{
+    font-size:28px;
+}
+
+.nav-link{
+    font-size:18px;
+    margin-left:10px;
+}
+
+.nav-link:hover{
+    color:#ffc107 !important;
+}
+
+.text-success{
+    font-size:16px;
+}
+
+footer{
+    margin-top:50px;
+}
+.card{
+    border-radius:15px;
+}
+
+.card img{
+    height:220px;
+    object-fit:cover;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    transition:0.3s;
+}
+.btn{
+    border-radius:30px;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    transition:0.3s;
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.navbar-brand{
+    font-size:28px;
+}
+
+.nav-link{
+    font-size:18px;
+    margin-left:10px;
+}
+
+.nav-link:hover{
+    color :#ffc107 !important;
+}
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+}
+
+.text-success{
+    font-size:16px;
+}
